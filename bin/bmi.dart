@@ -12,6 +12,7 @@ void hitungBMI(double tinggiCm, double beratKg, List<Map<String, dynamic>> riway
     return;
   }
 
+// Hitung BMI
   double tinggiM = tinggiCm / 100;
   double bmi = beratKg / (tinggiM * tinggiM);
 
@@ -25,4 +26,5 @@ void hitungBMI(double tinggiCm, double beratKg, List<Map<String, dynamic>> riway
   } else {
     kategori = "Obesitas";
   }
+
 }
